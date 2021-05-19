@@ -1,0 +1,50 @@
+.outerBox {
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+}
+.atomicNumber {
+    height: 18px;
+    font-size: 18px;
+}
+
+.atomicSymbol{
+    height: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.elementName{
+    height:20px;
+    font-size:14px;
+    text-align:center;
+}
+
+.mass {
+  height: 15px;
+  font-size: 14px;
+  text-align:center;
+}
+
+.colorSwatches{
+  padding-left:20px;
+}
+
+h1{
+  font-size: 24px;
+  font-family: sans-serif
+}
+
+#error{
+  height:15px;
+  font-size:15px;
+  color:firebrick;
+}
+
+#words{
+  padding: 3px; 
+  font-size: 24px;
+}
