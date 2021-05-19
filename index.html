@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Chemical Speller!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="https://cdn.glitch.com/7d4efe0b-d43f-427e-8361-c762014b759a%2Fbeaker.png?v=1599596935020" type="image/gif" sizes="16x16">
+    <!-- import the webpage's javascript file -->
+   <!-- <script src="/chemicals.js" defer></script>-->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>
+      Chemical Speller
+    </h1>
+    <input type="text" id="words">
+    <button onclick="spinSpell()" id="spellButton">
+      Spell
+    </button> <i class="fa fa-refresh fa-spin" style="font-size:20px; display: none;" id="spin"></i><br><div id="error">
+    </div>
+    <input type="checkbox" id="shortest" checked="true"> Shortest<br>
+    <input type="checkbox" id="colors" checked="true"> Color Code<br>
+    <input type="checkbox" id="onlyElems" > Only Elements<br>
+    <input type="checkbox" id="showMass" checked="true"> Show Mass<br>
+    <input type="checkbox" id="showAll"> Show All
+    <div id="colorCodes">
+    </div>
+    <div id="result">
+    </div>
+  </body>
+</html>
